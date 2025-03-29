@@ -1,69 +1,93 @@
-# Welcome to your Lovable project
+# 📖 LexiChain  
 
-## Project info
+## 🚀 Overview  
+**LexiChain** is an AI-powered dictionary app built using **LangChain** and **LLMs**. It provides **definitions, example sentences, word types, and linguistic details** for over **12 languages**.  
 
-**URL**: https://lovable.dev/projects/a283402b-061d-4935-9b17-c8db7950ca10
+## ✨ Features  
+- 🔍 **Word Definitions** – Get accurate meanings for words.  
+- 📖 **Example Sentences** – Understand word usage in context.  
+- 🏷 **Word Type Identification** – Find out if a word is a noun, verb, adjective, etc.  
+- 🌍 **Multilingual Support** – Supports **12+ languages** for word lookup.  
+- 🧠 **AI-Powered Processing** – Uses **LangChain** and **LLMs** for intelligent responses.  
+- 🎙 **Voice Search (Upcoming)** – Search for words by speaking.  
+- 🌐 **REST API** – Allows external integration with other applications.  
+- 🎛 **Simple & Fast UI** – Built with **React + Tailwind CSS** for a seamless experience.  
 
-## How can I edit this code?
+## 📸 Demo  
+https://github.com/user-attachments/assets/bb926aec-97a2-4322-885d-e585ef9d846c
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## 🛠 Installation  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a283402b-061d-4935-9b17-c8db7950ca10) and start prompting.
+### Prerequisites  
+- **Node.js** & npm/yarn  
+- **Python 3.x** installed  
+- Dependencies for frontend and backend  
 
-Changes made via Lovable will be committed automatically to this repo.
+### Steps  
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+#### **Frontend Setup**  
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/0xPratikPatil/LexiChain.git
+cd LexiChain
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+yarn install  # or npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# Start the development server
+yarn dev  # or npm run dev
 ```
 
-**Edit a file directly in GitHub**
+#### **Backend Setup**  
+```sh
+cd LexiChain/backend
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-**Use GitHub Codespaces**
+# Install dependencies
+pip install -r requirements.txt
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Run the backend server
+python server.py
+```
 
-## What technologies are used for this project?
+## 📌 Usage  
+1. Start the **backend** by running `server.py`.  
+2. Start the **frontend** using `npm run dev` or `yarn dev`.  
+3. Enter a word in the search bar.  
+4. Get instant results including **definition, examples, and word type**.  
+5. Choose from **12+ supported languages** for translation.  
 
-This project is built with .
+## 🏗 Tech Stack  
+- **Frontend:** React, Tailwind CSS  
+- **Backend:** Python, FastAPI, LangChain, LLMs  
+- **API Communication:** REST API  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📌 Roadmap  
+- [x] **Support for 12+ languages**  
+- [x] **Basic dictionary functionality (definitions, examples, word types)**  
+- [x] **Dark mode UI** 🌑  
+- [ ] **Synonyms & antonyms support**  
+- [ ] **Voice search functionality** 🎙  
+- [ ] **Expand language support to 20+ languages**  
+- [ ] **Offline mode for word lookup**  
+- [ ] **Mobile app version (Android/iOS)** 📱  
+- [ ] **Real-time API integration for external apps**  
+- [ ] **Personalized vocabulary learning & flashcards** 📝  
+- [ ] **User authentication for saving words & history** 🔐  
 
-## How can I deploy this project?
+## 🤝 Contributing  
+Contributions are welcome! To contribute:  
+1. Fork the repository.  
+2. Create a new branch (`feature-name`).  
+3. Commit your changes.  
+4. Open a pull request.  
 
-Simply open [Lovable](https://lovable.dev/projects/a283402b-061d-4935-9b17-c8db7950ca10) and click on Share -> Publish.
+## 🛡 License  
+This project is licensed under the **MIT License**.  
 
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+---  
+Made with ❤️ by the **LexiChain Team** 📖🚀  
