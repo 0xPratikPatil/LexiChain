@@ -13,17 +13,17 @@ const ExamplesList: React.FC<ExamplesListProps> = ({ examples }) => {
   }
 
   return (
-    <Card>
-      <CardHeader className="pb-2">
+    <Card className="overflow-hidden border-accent/50">
+      <CardHeader className="pb-2 bg-accent/20">
         <CardTitle className="text-lg flex items-center gap-2">
-          <BookOpen className="h-5 w-5" />
+          <BookOpen className="h-5 w-5 text-secondary" />
           <span>Examples</span>
         </CardTitle>
       </CardHeader>
       <CardContent>
         <ul className="space-y-3">
           {examples.map((example, index) => (
-            <li key={index} className="example-item border-primary/40">
+            <li key={index} className="example-item border-secondary/60">
               {example}
             </li>
           ))}
